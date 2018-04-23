@@ -1,6 +1,6 @@
-# Discord.js örnekleri
+# Discord-API örnekleri
 
-Javascript dilinde discord.js kütüphanesiyle yazılmış bazı komut örnekleri için kaynak.
+Discord API ile yazılmış bazı komut örnekleri için kaynak.
 
 # Önemli not
 
@@ -25,4 +25,13 @@ node [dosya-adi].js
 
 ```
 npm i -s node-google-translate-skidz
+```
+
+# Discord.py'nin kurulumu:
+```
+pip3 install discord
+```
+||
+```
+pip install discord
 ```
