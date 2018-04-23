@@ -18,3 +18,11 @@ Yazmanız yeterlidir.
 ```
 node [dosya-adi].js
 ```
+
+# Bazı gerekli kütüphaneler ve kurulumları:
+
+- node-google-translate-skidz
+
+```
+npm i -s node-google-translate-skidz
+```
