@@ -7,8 +7,8 @@ client.on("message", (message) => {
     if(komut === "çevir") {
             var cevir = require('node-google-translate-skidz');
             let hdil = arg[0];
-            if(!hdil) return message.channel.send("**Hata,** şöyle yazmalısın: `$çevir [tr/en vs.] [kelime]`");
-            if(hdil.length > 2) return message.channel.send("**Hata,** şöyle yazmalısın: `$çevir [tr/en vs.] [kelime]`");
+            if(!hdil) return message.channel.send("**Hata,** şöyle yazmalısın: `#{prefix}çevir [tr/en vs.] [kelime]`");
+            if(hdil.length > 2) return message.channel.send("**Hata,** şöyle yazmalısın: `#{prefix}çevir [tr/en vs.] [kelime]`");
             var cevrt = arg.slice(1).join(" ");
             if(!cevrt){
                 message.channel.send("Çevirmek istediğin dili yazmalıydın!");
